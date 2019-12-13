@@ -17,7 +17,7 @@ struct file{
     string date;
     string type;
 };
-static string mypath="D:\\Projects\\laba4\\ftp";
+static string mypath="D:\\LABB01\\laba4-master";
 static int pz=mypath.length()-4;
 string getLatestDate(const string &date1, const string &date2);
 void printFinFile(const path &p, map<string, pair <unsigned int, string>>& accounts);
